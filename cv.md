@@ -1,7 +1,7 @@
 # CV
 
 ## __Eugenia Protasevich__
-
+![My photo](https://avatars2.githubusercontent.com/u/55069868?s=460&v=4)
 
 ### __Contact info:__ 
 * __*Phone:*__ +375259018586
