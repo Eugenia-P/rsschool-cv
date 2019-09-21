@@ -1,5 +1,6 @@
 body {
   width: 1024px;
+  height: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -13,8 +14,7 @@ footer {
   padding: 20px 10px;
   position: fixed;
   width: 1024px;
-  top: 0;
-  z-index: 10;
+  bottom: 0;
 }
 
 footer a {
@@ -37,7 +37,8 @@ a:hover {
 
 main {
   position: relative;
-  top: 100px;
+  bottom: 120px;
+  margin-top: 150px;
 }
 
 /*.grid {
