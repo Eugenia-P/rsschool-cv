@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<p>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap" rel="stylesheet">
+<body>
+  <div class="block"></div>
+    <header>
+      <h1 id="name">Eugenia Protasevich</h1>
+    </header>
+    <main class="grid">
+      <div class="pic">
+        <img src="https://avatars2.githubusercontent.com/u/55069868?s=460&v=4" width="350px">
+      </div>
+      <div class="info">
+        <h2 id="info">Contact Info:</h2>
+        <ul>
+          <li>Phone: +375259018586</li>
+          <li>E-mail: eugenia.protasevich@yandex.by</li>
+          <li>Address: 57 Vatutina street, Minsk, Belarus, 220049</li>
+        </ul>
+      </div>
+      <div class="summary">
+        <h2 id="summary">Summary</h2>
+        <p>The main purpose of life is to keep developing yourself. That's why it is so important for me to be <em>educated</em> and <em>up-to-date</em>.</p>
+        <p>I believe that IT area is the best place for <strong>development</strong> and <strong>achievement of the</strong> most <strong>goals</strong> I've set myself. IT is great for development and <em>self-education</em> because you have to constantly learn, learn and learn in order to keep your job. And learning is not a big deal for me as I can <em>sponge knowledge</em> fast (or at least find the answers in Google fast  &#128516) That's why I am so into IT area and, especially, <strong>programming</strong>. </p>
+        <p>Despite the fact I have a <em>degree in linguistics</em>, I have always been <em>interested in technologies</em> which can be proven by my ability of solving first all the given tasks at computer classes during my studies at the high school and the university, and helping my mates after finishing them. That helped realize that I like computers and everything related to it.</p>
+        <p>As much as I love the process of creating something new, coding and overall "communicating" with PC, I also love money (as most people do) so to feel myself secure and confident in this changing world. Isn't it the most popular reason why people decide to switch their career and enter in IT? I am tha of person who cares a lot about <strong>career</strong> and opportunity to be <strong>paid well and fairly</strong> for the current knowledge and experience in the  area. Considering my vast <em>work experience in the USA</em> during my university summer holidays, I know how <em>motivated</em>, <em>productive</em> and <em>efficient</em> I become knowing that I receive a great payment hourly or per month. </p>
+        <p>In conclusion, I would like to add some points from my to-do list which I've made last year for the nearest 2-3 years (the list is much longer):</p>
+        <p>
+          <input type="checkbox" name="goals" value="checked" disabled checked> Start learning JavaScript; <br>
+          <input type="checkbox" name="goals" value="checked" disabled checked> Get a temporary part-time job;<br>
+          <input type="checkbox" name="goals" value="unchecked" disabled> Get a well-paid job ($1000 salary);<br>
+          <input type="checkbox" name="goals" value="unchecked" disabled> Get hired by EPAM.<br>
+        </p>
+        <p>It might shock you what amount of monthly salary I had set myself to gain in the nearest future but there's a cool phrase I always say:</p>
+          <p><cite>The higher goals you set
+             The more you achieve.</cite></p>
+        <p>Hopefully, the Rolling Scopes School's course will help me to achieve the latter goal (and maybe, with time and huge efforts, the third one as well and become a software engineer at EPAM.</p>
+      </div>
+      <div class="skills">
+        <h2 id="skills">Skills</h2>
+        <ul>
+          <li><h4>Languages:</h4> HTML5, CSS3, JavaScript, MySQL</li>
+          <li><h4>Frameworks:</h4> Bootstrap4, Foundation, Angular</li>
+          <li><h4>Preprocessor:</h4> LESS, SASS</li>
+          <li><h4>Version Control:</h4> Git </li>
+          <li><h4>Tools:</h4> Selenium IDE, VirtualBox</li>
+          <li><h4>OC:</h4> Windows, Linux</li>
+        </ul>
+      </div>
+      <div class="code-ex">
+        <h2 id="code-ex">Code Examples</h2>
+        <pre><code>
+function spinWords(str) {
+  return str.split(' ').map(word => {
+    return word.length > 4 ? word.split('').reverse().join('') : word
+  ;}).join(' ');
+};</code>
+        </pre>
+        <pre><code>
+const bareable = (heat, humidity) => {
+  return humidity > 0.5 || heat > 35 ? false
+    : heat > 25 && heat < 36 ? humidity > 0.4 ? false
+                             : true
+    : heat <= 25 ? false : true;
+}
+          </code>
+        </pre>
+        <pre><code>
+const uniqueInOrder = iterable => {
+  let result = [];
+
+  if (iterable == '') return result;
+    else {
+      result = [iterable[0]];
+
+      for (let i = 1; i < iterable.length; i++) {
+        if (iterable[i] != iterable[i - 1]) result.push(iterable[i]);
+      }
+
+     return result;
+   }
+
+};</code>
+        </pre>
+      </div>
+      <div class="exp-ed">
+        <h2 id="exp-ed">Experience & Education</h2>
+        <ul>
+          <li><h3>Minsk State Linguistic University</h3>Bachelor's degree in Linguistics (Department of Translation and Interpreting)</li>
+          <li><h3>Epam Training Lab</h3>Software Testing Introduction (STI39)</li>
+          <li class="self-ed"><h3>Online self-education:</h3>
+              <p>HTML Acadamy (paid subscription): <a href="https://htmlacademy.ru/profile/eugenia_protasevich">eugenia_protasevich</a></p>
+              <p>Codecadamy: <a href="https://www.codecademy.com/profiles/eugenia_protasevich">eugenia_protasevich</a></p>
+              <p>Codewars: <a href="https://www.codewars.com/users/Jenny95">Jenny95</a></p>
+              <p>JavaScript Book: <a href="http://learn.javascript.ru">learn.javascript.ru</a></p>
+          </li>
+
+        </ul>
+      </div>
+      <div class="english">
+        <h2 id="english">English</h2>
+
+        <ul>
+          <li><h3>English-level: </h3> C1</li>
+          <li><h3>5 years of education in the MSLU</h3></li>
+          <li class="eng-exp"><h3>Work Experience in English:</h3>
+                  <p>Translator and Customer support manager (1+ year)</p>
+                  <p>Various job positions in the English speaking country (the USA) (6 months)</p>
+          </li>
+
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <a href="#name">Eugenia Protasevich</a>
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#code-ex">Code Examples</a>
+      <a href="#exp-ed">Exp&Ed</a>
+      <a href="#english">English level</a>
+    </footer>
+  </div>
+
+</body>
+</html>
