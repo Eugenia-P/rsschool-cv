@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700&display=swap" rel="stylesheet">
 <body>
-  <div class="block">
+  <div class="block"></div>
     <header>
       <h1 id="name">Eugenia Protasevich</h1>
     </header>
@@ -32,10 +32,10 @@
         <p>As much as I love the process of creating something new, coding and overall "communicating" with PC, I also love money (as most people do) so to feel myself secure and confident in this changing world. Isn't it the most popular reason why people decide to switch their career and enter in IT? I am tha of person who cares a lot about <strong>career</strong> and opportunity to be <strong>paid well and fairly</strong> for the current knowledge and experience in the  area. Considering my vast <em>work experience in the USA</em> during my university summer holidays, I know how <em>motivated</em>, <em>productive</em> and <em>efficient</em> I become knowing that I receive a great payment hourly or per month. </p>
         <p>In conclusion, I would like to add some points from my to-do list which I've made last year for the nearest 2-3 years (the list is much longer):</p>
         <p>
-          <input type="checkbox" name="goals" value="checked" disabled checked>Start learning JavaScript; <br>
-          <input type="checkbox" name="goals" value="checked" disabled checked>Get a temporary part-time job;<br>
-          <input type="checkbox" name="goals" value="unchecked" disabled>Get a well-paid job ($1000 salary);<br>
-          <input type="checkbox" name="goals" value="unchecked" disabled>Get hired by EPAM.<br>
+          <input type="checkbox" name="goals" value="checked" disabled checked> Start learning JavaScript; <br>
+          <input type="checkbox" name="goals" value="checked" disabled checked> Get a temporary part-time job;<br>
+          <input type="checkbox" name="goals" value="unchecked" disabled> Get a well-paid job ($1000 salary);<br>
+          <input type="checkbox" name="goals" value="unchecked" disabled> Get hired by EPAM.<br>
         </p>
         <p>It might shock you what amount of monthly salary I had set myself to gain in the nearest future but there's a cool phrase I always say:</p>
           <p><cite>The higher goals you set
@@ -47,7 +47,7 @@
         <ul>
           <li><h4>Languages:</h4> HTML5, CSS3, JavaScript, MySQL</li>
           <li><h4>Frameworks:</h4> Bootstrap4, Foundation, Angular</li>
-          <li><h4>Preprocessors:</h4> LESS, SASS</li>
+          <li><h4>Preprocessor:</h4> LESS, SASS</li>
           <li><h4>Version Control:</h4> Git </li>
           <li><h4>Tools:</h4> Selenium IDE, VirtualBox</li>
           <li><h4>OC:</h4> Windows, Linux</li>
@@ -55,16 +55,14 @@
       </div>
       <div class="code-ex">
         <h2 id="code-ex">Code Examples</h2>
-        <pre>
-<code>
+        <pre><code>
 function spinWords(str) {
   return str.split(' ').map(word => {
     return word.length > 4 ? word.split('').reverse().join('') : word
   ;}).join(' ');
 };</code>
         </pre>
-        <pre>
-<code>
+        <pre><code>
 const bareable = (heat, humidity) => {
   return humidity > 0.5 || heat > 35 ? false
     : heat > 25 && heat < 36 ? humidity > 0.4 ? false
@@ -73,8 +71,7 @@ const bareable = (heat, humidity) => {
 }
           </code>
         </pre>
-        <pre>
-<code>
+        <pre><code>
 const uniqueInOrder = iterable => {
   let result = [];
 
