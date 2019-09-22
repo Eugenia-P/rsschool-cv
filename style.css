@@ -1,6 +1,5 @@
 body {
   width: 1024px;
-  height: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -52,9 +51,38 @@ main {
   margin-top: 150px;
 }
 
-/*.grid {
+.grid {
   display: grid;
-  position: relative;
-  top: 100px;
-  grid-template: repeat(6, 1fr), repeat(6, 1 fr);
+  width: 1024px;
+  height: 2500px;
+  grid-template: repeat(8, 1fr) / repeat(6, 1fr);
 }
+
+.pic {
+  grid-area: 1 / 1 /  2 / 4;
+}
+.info {
+  grid-area: 1 / 4 / 2 / 7;
+}
+
+.summary {
+  grid-area: 2 / 1 / span 3 / 7;
+}
+
+.skills {
+  grid-area: 5 / 1 / 6 / 7;
+}
+
+.code-ex {
+  grid-area: 6 / 1 / 7 / 7;
+}
+
+.exp-ed {
+  grid-area: 7 / 1 / 8 / 7;
+}
+
+.english {
+  grid-area: 8 / 1 / 9 / 7;
+}
+
+
